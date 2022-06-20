@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Gamevicio</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link href="scss/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="logos">
+            <img src="https://www.gamevicio.com/misc/images/logo-black.webp">
+            <img src="https://www.gamevicio.com/misc/images/logo-white.webp" style="display: none;">
+            <nav>
+                <button type="button"><img id="logos__fb" src="https://cdn-icons-png.flaticon.com/128/174/174848.png"></button>
+                <button type="button"><img id="logos__tw" src="https://cdn-icons-png.flaticon.com/128/174/174876.png"></button>
+                <button type="button"><img id="logos__is" src="https://cdn-icons-png.flaticon.com/128/174/174855.png"></button>
+                <button type="button"><img id="logos__yt" src="https://cdn-icons-png.flaticon.com/128/174/174883.png"></button>
+                <button type="button"><img id="logos__ds" src="https://cdn.iconscout.com/icon/free/png-128/discord-3-569463.png"></button>
+            </nav>
+        </div>
+
+        <header>
+            <nav>
+                <div class="header__item"><img src="https://icon-library.com/images/menu-icon-png-3-lines/menu-icon-png-3-lines-5.jpg"></div>
+                <div class="header__item">GAMES</div>
+                <div class="header__item">OTAKU</div>
+                <div class="header__item">ENTRETENIMENTO</div>
+                <div class="header__item">ANÁLISES</div>
+                <div class="header__item">COLABORE</div>
+            </nav>
+        </header>
+
+        <section class="news-grid center">
+            <div id="news-grid-carousel" class="news-grid__slide carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#news-grid-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#news-grid-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#news-grid-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#news-grid-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#news-grid-carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                </div>
+
+                <div class="carousel-inner h-100">
+
+                    <div class="carousel-item active h-100" data-bs-interval="4000">
+                        <img src="https://static.gamevicio.com/imagens_up/big/46/tim-sweeney-diz-que-a-epic-games-espera-recuperar-os-investimentos-na-epic-store-em-3-ou-4-anos-045503.webp" class="d-block h-100" alt="">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Epic Games Store adiciona análises e tags de usuários</h5>
+                            <p>Novo sistema irá reunir feedback dos usuários que jogaram mais de 2 horas.</p>
+                        </div>
+
+                        <div class="carousel-category">Games</div>
+                    </div>
+
+                    <div class="carousel-item h-100" data-bs-interval="4000">
+                        <img src="https://static.gamevicio.com/imagens_up/big/75/square-enix-divulga-imagens-em-alta-qualidade-de-crisis-core-final-fantasy-vii-reunion-074103.jpg" class="d-block h-100" alt="">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Square Enix divulga imagens em alta qualidade de Crisis Core: Final Fantasy VII Reunion</h5>
+                            <p>O remaster foi anunciado recentemente.</p>
+                        </div>
+
+                        <div class="carousel-category">Games</div>
+                    </div>
+
+                    <div class="carousel-item h-100" data-bs-interval="4000">
+                        <img src="https://static.gamevicio.com/imagens_up/big/75/dark-souls-masque-of-vindication-e-anunciado-074107.jpg" class="d-block h-100" alt="">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Dark Souls: Masque of Vindication é anunciado</h5>
+                            <p>Primeiro livro oficial da série contará uma história baseada no primeiro jogo.</p>
+                        </div>
+
+                        <div class="carousel-category">Variados</div>
+                    </div>
+
+                    <div class="carousel-item h-100" data-bs-interval="4000">
+                        <img src="https://static.gamevicio.com/imagens_up/big/75/diretora-de-cuphead-diz-que-nao-se-importa-de-adiar-o-jogo-quantas-vezes-for-necessario-074109.jpg" class="d-block h-100" alt="">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Diretora de Cuphead diz que não se importa em adiar seus jogo quantas vezes for necessário</h5>
+                            <p>Para ela, o importante é o bem-estar do estúdio.</p>
+                        </div>
+
+                        <div class="carousel-category">Games</div>
+                    </div>
+
+                    <div class="carousel-item h-100" data-bs-interval="4000">
+                        <img src="https://static.gamevicio.com/imagens_up/big/75/final-fantasy-vii-rebirth-e-anunciado-para-playstation-5-074034.jpg" class="d-block h-100" alt="">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Tetsuya Nomura diz que existe um motivo do porque Final Fantasy VII Rebirth não se chama FF VII Remake Part II</h5>
+                            <p>Mas ele só pode explicar esses detalhes no futuro</p>
+                        </div>
+
+                        <div class="carousel-category">Games</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="news1">
+                <img class="h-100" src="https://static.gamevicio.com/imagens_up/big/75/vazam-imagens-de-ravenbound-novo-jogo-medieval-dos-criadores-de-just-cause-074112.jpg">
+                <div class="carousel-category">Games</div>
+
+                <div class="carousel-caption">
+                    <h5>Vazam imagens de Ravenbound, novo jogo medieval do estúdio de Just Cause</h5>
+                    <p>Título de fantasia colocará os jogadores no papel de um cavaleiro com a tarefa de salvar seu reino.</p>
+                </div>
+            </div>
+
+            <div class="news2">
+                <img class="h-100" src="https://static.gamevicio.com/imagens_up/big/75/naughty-dog-comemora-os-2-anos-de-the-last-of-us-part-ii-074104.jpg">
+                <div class="carousel-category">Games</div>
+
+                <div class="carousel-caption">
+                    <h5>Naughty Dog comemora o segundo aniversário de The Last of Us Part II</h5>
+                    <p>O jogo mais premiado de todos os tempos está de aniversário.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="status center">
+            <div class="status__item">
+                <div class="status__img">
+                    <img src="https://static.gamevicio.com/imagens_up/big/74/resident-evil-2-3-e-7-nao-e-mais-compativel-com-mods-073967.jpg">
+                </div>
+                <p>Resident Evil 2, 3 e 7 não é mais compatível com mods...</p>
+            </div>
+
+            <div class="status__item">
+                <div class="status__img">
+                    <img src="https://static.gamevicio.com/imagens_up/big/74/novo-beta-de-overwatch-2-no-pc-e-consoles-073888.jpg">
+                </div>
+                <p>Resident Evil 2, 3 e 7 não é mais compatível com mods...</p>
+            </div>
+
+            <div class="status__item">
+                <div class="status__img">
+                    <img src="https://static.gamevicio.com/imagens_up/big/74/resident-evil-village-em-terceira-pessoa-073880.jpg">
+                </div>
+                <p>Resident Evil 2, 3 e 7 não é mais compatível com mods...</p>
+            </div>
+
+            <div class="status__item">
+                <div class="status__img">
+                    <img src="https://static.gamevicio.com/imagens_up/big/74/nova-ps-plus-ja-esta-disponivel-no-brasil-073795.jpg">
+                </div>
+                <p>Resident Evil 2, 3 e 7 não é mais compatível com mods...</p>
+            </div>
+
+            <div class="status__item">
+                <div class="status__img">
+                    <img src="https://static.gamevicio.com/imagens_up/big/74/resident-evil-villagem-tem-dlc-anunciada-073794.jpg">
+                </div>
+                <p>Resident Evil 2, 3 e 7 não é mais compatível com mods...</p>
+            </div>
+
+            <div class="status__item">
+                <div class="status__img">
+                    <img src="https://static.gamevicio.com/imagens_up/big/74/novo-jogo-do-hideo-kojima-com-o-xbox-073778.jpg">
+                </div>
+                <p>Resident Evil 2, 3 e 7 não é mais compatível com mods...</p>
+            </div>
+
+            <div class="status__item">
+                <div class="status__img">
+                    <div class="status__webstories">
+                        <a href="#">+</a>
+                    </div>
+                </div>
+                <p>Veja outros Webstories</p>
+            </div>
+        </section>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    </body>
+</html>
