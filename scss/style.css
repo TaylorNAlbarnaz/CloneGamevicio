@@ -186,9 +186,6 @@ header {
   header {
     padding: 0 clamp(0px, 5%, 175px); }
 
-  .header__item:nth-last-of-type(1) {
-    display: none !important; }
-
   .status__item:nth-of-type(6), .status__item:nth-of-type(5) {
     display: none; }
 
@@ -198,16 +195,19 @@ header {
   header {
     padding: 0 clamp(0px, 2%, 175px); }
 
-  .header__item:nth-last-of-type(2) {
-    display: none !important; }
-
   .status__item:nth-of-type(4) {
     display: none; } }
 @media screen and (max-width: 500px) {
   .status__item:nth-of-type(3) {
-    display: none; } }
+    display: none; }
+
+  .header__item:nth-last-of-type(1) {
+    display: none !important; } }
 @media screen and (max-width: 400px) {
   .status__item:nth-of-type(2) {
-    display: none; } }
+    display: none; }
+
+  .header__item:nth-last-of-type(2) {
+    display: none !important; } }
 
 /*# sourceMappingURL=style.css.map */
