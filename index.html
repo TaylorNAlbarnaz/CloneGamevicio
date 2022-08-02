@@ -10,26 +10,37 @@
 
     <body>
         <div class="logos">
-            <img src="https://www.gamevicio.com/misc/images/logo-black.webp">
-            <img src="https://www.gamevicio.com/misc/images/logo-white.webp" style="display: none;">
-            <nav>
-                <button type="button"><img id="logos__fb" src="https://cdn-icons-png.flaticon.com/128/174/174848.png"></button>
-                <button type="button"><img id="logos__tw" src="https://cdn-icons-png.flaticon.com/128/174/174876.png"></button>
-                <button type="button"><img id="logos__is" src="https://cdn-icons-png.flaticon.com/128/174/174855.png"></button>
-                <button type="button"><img id="logos__yt" src="https://cdn-icons-png.flaticon.com/128/174/174883.png"></button>
-                <button type="button"><img id="logos__ds" src="https://cdn.iconscout.com/icon/free/png-128/discord-3-569463.png"></button>
-            </nav>
+            <div class="logos__container">
+                <div class="logos__main">
+                    <img src="https://www.gamevicio.com/misc/images/logo-black.webp">
+                    <img src="https://www.gamevicio.com/misc/images/logo-white.webp" style="display: none;">
+                </div>
+                <nav>
+                    <button type="button"><img id="logos__fb" src="https://cdn-icons-png.flaticon.com/128/174/174848.png"></button>
+                    <button type="button"><img id="logos__tw" src="https://cdn-icons-png.flaticon.com/128/174/174876.png"></button>
+                    <button type="button"><img id="logos__is" src="https://cdn-icons-png.flaticon.com/128/174/174855.png"></button>
+                    <button type="button"><img id="logos__yt" src="https://cdn-icons-png.flaticon.com/128/174/174883.png"></button>
+                    <button type="button"><img id="logos__ds" src="https://cdn.iconscout.com/icon/free/png-128/discord-3-569463.png"></button>
+                </nav>
+            </div>
         </div>
 
         <header>
-            <nav>
-                <div class="header__item"><img src="https://icon-library.com/images/menu-icon-png-3-lines/menu-icon-png-3-lines-5.jpg"></div>
-                <div class="header__item">GAMES</div>
-                <div class="header__item">OTAKU</div>
-                <div class="header__item">ENTRETENIMENTO</div>
-                <div class="header__item">ANÁLISES</div>
-                <div class="header__item">COLABORE</div>
-            </nav>
+            <div class="header__container">
+                <nav>
+                    <div class="header__item"><img src="https://icon-library.com/images/menu-icon-png-3-lines/menu-icon-png-3-lines-5.jpg"></div>
+                    <div class="header__item">GAMES</div>
+                    <div class="header__item">OTAKU</div>
+                    <div class="header__item">ENTRETENIMENTO</div>
+                    <div class="header__item">ANÁLISES</div>
+                    <div class="header__item">COLABORE</div>
+                </nav>
+
+                <nav>
+                    <div class="header__item"><img src="https://icon-library.com/images/menu-icon-png-3-lines/menu-icon-png-3-lines-5.jpg"></div>
+                    <div class="header__item"><img src="https://icon-library.com/images/menu-icon-png-3-lines/menu-icon-png-3-lines-5.jpg"></div>
+                </nav>
+            </div>
         </header>
 
         <section class="news-grid center">
@@ -178,23 +189,49 @@
                         <div class="category">Games</div>
                     </div>
 
-                    <div class="noticias__item__txt">
-                        <a href="#">Preparem suas carteiras! Steam Summer Sale começará no dia 23 de Junho</a>
-                        <p>O famoso evento anual de vendas de jogos do Steam está chegando!</p>
-                    </div>
-
-                    <div class="noticias__item__info">
-                        <div class="noticias__item__labels">
-                            <button type="button" class="label-noticia">Steam</div>
-                            <button type="button" class="label-noticia">PC</div>
+                    <div class="noticias__item__content">
+                        <div class="noticias__item__content__title">
+                            <a href="#">Preparem suas carteiras! Steam Summer Sale começará no dia 23 de Junho</a>
                         </div>
 
-                        <div class="noticias__item__autor">
-                            Por <b>Dreadnaught</b>, 4 horas atrás
+                        <div class="noticias__item__content__text">
+                            <p>O famoso evento anual de vendas de jogos do Steam está chegando!</p>
+                        </div>
+
+                        <div class="noticias__item__content__info">
+                            <button type="button" class="label-noticia" style="background-color: #c62828;">Steam</button>
+                            <button type="button" class="label-noticia" style="background-color: #546e7a;">PC</button>
+                            <p>Por <b>Dreadnaught</b>, 4 horas atrás</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="noticias__item">
+                    <div class="noticias__item__img">
+                        <img src="https://static.gamevicio.com/imagens_up/big/75/preparem-suas-carteiras-steam-summer-sale-comecara-no-dia-23-de-junho-074130.jpg">
+                        <div class="category">Games</div>
+                    </div>
+
+                    <div class="noticias__item__content">
+                        <div class="noticias__item__content__title">
+                            <a href="#">Preparem suas carteiras! Steam Summer Sale começará no dia 23 de Junho</a>
+                        </div>
+
+                        <div class="noticias__item__content__text">
+                            <p>O famoso evento anual de vendas de jogos do Steam está chegando!</p>
+                        </div>
+
+                        <div class="noticias__item__content__info">
+                            <button type="button" class="label-noticia" style="background-color: #c62828;">Steam</button>
+                            <button type="button" class="label-noticia" style="background-color: #546e7a;">PC</button>
+                            <p>Por <b>Dreadnaught</b>, 4 horas atrás</p>
                         </div>
                     </div>
                 </div>
             </div>
+            
+            <aside>
+            </aside>
         </section>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
