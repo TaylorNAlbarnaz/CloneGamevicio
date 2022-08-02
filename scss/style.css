@@ -127,7 +127,8 @@ header {
   bottom: 0;
   right: 0;
   padding-bottom: 0;
-  text-align: left; }
+  text-align: left;
+  text-shadow: 1px 1px 1px black; }
   .carousel-caption h5 {
     font-size: 1.3rem;
     font-weight: 700; }
@@ -210,6 +211,8 @@ header {
       .noticias__item__img img {
         height: 200px;
         transition: 0.5s; }
+      .noticias__item__img > .category {
+        top: calc(-25% + 12px); }
     .noticias__item__content {
       display: flex;
       width: 100%;
@@ -234,6 +237,8 @@ header {
       transform: scale(1.05); }
     .noticias__item:hover a {
       color: #e53935; }
+    .noticias__item:hover .category {
+      background-color: #e53935; }
 
 .label-noticia {
   height: 1.5em;

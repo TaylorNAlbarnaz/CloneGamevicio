@@ -176,6 +176,7 @@ header {
     right: 0;
     padding-bottom: 0;
     text-align: left;
+    text-shadow: 1px 1px 1px black;
 
     h5 {
         font-size: 1.3rem;
@@ -289,6 +290,10 @@ header {
                 height: 200px;
                 transition: 0.5s;
             }
+
+            > .category {
+                top: calc(-25% + 12px);
+            }
         }
 
         &__content {
@@ -326,6 +331,10 @@ header {
 
             a {
                 color: $activeColor;
+            }
+
+            .category {
+                background-color: $activeColor;
             }
         }
     }
