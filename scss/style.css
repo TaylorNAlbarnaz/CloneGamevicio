@@ -191,6 +191,7 @@ header {
 .conteudo {
   display: flex;
   max-width: 960px;
+  gap: 20px;
   justify-content: space-between; }
 
 .noticias {
@@ -202,6 +203,13 @@ header {
   margin-bottom: 100px;
   margin-right: 40px;
   font-family: 'Oxygen', sans-serif; }
+  .noticias > .text-container {
+    width: fit-content;
+    padding: 0 4px;
+    border-bottom: 3px solid #e53935; }
+    .noticias > .text-container > h2 {
+      text-transform: uppercase;
+      font-size: 0.8em; }
   .noticias__item {
     display: flex;
     width: 100%;
@@ -255,10 +263,13 @@ header {
   font-family: 'Oxygen', sans-serif; }
   .perdido > .text-container {
     border-left: 4px solid #e53935;
-    padding-left: 6px; }
+    padding-left: 8px;
+    text-align: bottom; }
     .perdido > .text-container > h2 {
+      margin: 0;
       text-transform: uppercase;
-      font-size: 1.1em; }
+      font-size: 1.1em;
+      font-weight: bold; }
   .perdido__item {
     display: flex;
     width: 100%;
@@ -306,7 +317,8 @@ header {
   flex-grow: 0.3;
   position: relative;
   width: 300px;
-  height: 200px;
+  height: 180px;
+  margin-bottom: 20px;
   overflow: hidden;
   cursor: pointer; }
   .sidebar__item p {
