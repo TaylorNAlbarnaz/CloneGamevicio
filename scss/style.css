@@ -209,9 +209,11 @@ header {
     border-bottom: 3px solid #e53935; }
     .noticias__item__img {
       flex-grow: 0.4;
-      min-width: 200px;
+      min-width: 240px;
       overflow: hidden; }
       .noticias__item__img img {
+        position: relative;
+        transform: translate(-25%, 0%);
         height: 200px;
         transition: 0.5s; }
       .noticias__item__img > .category {
@@ -237,10 +239,67 @@ header {
           font-size: .9em;
           margin-left: 15px; }
     .noticias__item:hover img {
-      transform: scale(1.05); }
+      transform: translate(-25%, 0%) scale(1.05); }
     .noticias__item:hover a {
       color: #e53935; }
     .noticias__item:hover .category {
+      background-color: #e53935; }
+
+.perdido {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 100px;
+  margin-right: 40px;
+  font-family: 'Oxygen', sans-serif; }
+  .perdido > .text-container {
+    border-left: 4px solid #e53935;
+    padding-left: 6px; }
+    .perdido > .text-container > h2 {
+      text-transform: uppercase;
+      font-size: 1.1em; }
+  .perdido__item {
+    display: flex;
+    width: 100%;
+    height: 140px;
+    border-bottom: 3px solid #e53935; }
+    .perdido__item__img {
+      flex-grow: 0.3;
+      min-width: 140px;
+      overflow: hidden; }
+      .perdido__item__img img {
+        position: relative;
+        transform: translate(-25%, -25%);
+        height: 200px;
+        transition: 0.5s; }
+      .perdido__item__img > .category {
+        top: calc(-75% + 12px); }
+    .perdido__item__content {
+      display: flex;
+      width: 100%;
+      margin-left: 20px;
+      flex-grow: 0.7;
+      flex-direction: column;
+      justify-content: space-around; }
+      .perdido__item__content a {
+        font-size: 1.2em;
+        font-weight: 400;
+        text-decoration: none;
+        color: black; }
+      .perdido__item__content__info {
+        display: flex;
+        width: 100%;
+        height: 30px;
+        align-items: baseline; }
+        .perdido__item__content__info p {
+          font-size: .8em;
+          margin-left: 15px; }
+    .perdido__item:hover img {
+      transform: translate(-25%, -25%) scale(1.05); }
+    .perdido__item:hover a {
+      color: #e53935; }
+    .perdido__item:hover .category {
       background-color: #e53935; }
 
 .sidebar__item {
