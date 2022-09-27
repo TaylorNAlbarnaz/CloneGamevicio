@@ -213,7 +213,7 @@ header {
   .noticias__item {
     display: flex;
     width: 100%;
-    height: 200px;
+    min-height: 200px;
     border-bottom: 3px solid #e53935; }
     .noticias__item__img {
       flex-grow: 0.4;
@@ -367,18 +367,31 @@ header {
     display: none; }
 
   .perdido__item__img {
+    display: none; }
+
+  .header__item:nth-last-of-type(1) {
+    display: none !important; }
+
+  .logos__social {
     display: none; } }
 @media screen and (max-width: 500px) {
   .status__item:nth-of-type(3) {
     display: none; }
 
-  .header__item:nth-last-of-type(1) {
-    display: none !important; } }
+  .header__item:nth-last-of-type(2) {
+    display: none !important; }
+
+  .noticias__item {
+    flex-direction: column; }
+    .noticias__item__img img {
+      width: 500px; }
+    .noticias__item__img .category {
+      top: -30px; } }
 @media screen and (max-width: 400px) {
   .status__item:nth-of-type(2) {
     display: none; }
 
-  .header__item:nth-last-of-type(2) {
+  .header__item:nth-last-of-type(3) {
     display: none !important; } }
 
 /*# sourceMappingURL=style.css.map */
